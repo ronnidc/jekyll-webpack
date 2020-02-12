@@ -1,5 +1,5 @@
 {
-  "name": "hello-worlds",
+  "name": "jekyll-webpack",
   "version": "1.0.0",
   "private": true,
   "devDependencies": {

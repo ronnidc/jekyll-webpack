@@ -1,6 +1,6 @@
 timezone: Europe/Copenhagen
-exclude: [
-  "assets" # <= Webpack is responsible for this directory
-]
-destination: tmp/dist # <= Temporary output during development
-keep_files: ["assets"]
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
