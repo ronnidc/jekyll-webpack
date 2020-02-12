@@ -8,7 +8,13 @@
   {% asset_tag main.css %}
 </head>
 <body>
+  <header>
+    {% include navigation/navigation.html %}
+  </header>
   {{ content }}
+  <footer>
+    {% include footer/footer.html %}
+  </footer>
   {% asset_tag main.js %}
 </body>
 </html>
