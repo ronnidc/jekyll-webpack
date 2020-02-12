@@ -1,0 +1,21 @@
+{
+	"files.exclude": {
+		//"config": true,
+		//".vscode": true,
+		"tmp": true,
+		"Gemfile": true,
+		"Gemfile.lock": true,
+		"package-lock.json": true,
+		"LICENCE": true,
+		".gitignore": true,
+		"**/.jekyll-cache": true
+	},
+	"editor.tabSize": 4,
+	"editor.insertSpaces": true, 
+	"search.exclude": {
+        "tmp": true,
+        "config": true,
+        "**/.jekyll-cache": true,
+        "dist": true
+    },
+}
