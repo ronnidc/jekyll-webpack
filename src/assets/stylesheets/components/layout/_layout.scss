@@ -1,0 +1,47 @@
+/*
+  Page Layout
+*/
+html, 
+body {
+  height: 100%;
+}
+body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    color: #333;
+    background-color: darkcyan;
+  }
+  
+  .layout {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+    &__header {
+      background: darkcyan;
+      color: white;
+      padding: 1em;
+    }
+    &__main {
+      background-color: lightcoral;
+      padding: 1em;
+    }
+    &__footer {
+      background: darkcyan;
+      color: white;
+      padding: 2em 1em;
+    }
+  }
+  .title {
+    font-size: 80px;
+    color: darkcyan;
+  }
+  .title-2 {
+    font-size: 50px;
+    color: darkcyan;
+  }.title-3 
+  {
+    font-size: 35px;
+    color: darkorchid;
+  }
