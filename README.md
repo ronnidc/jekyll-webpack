@@ -1,5 +1,7 @@
 # Jekyll and Webpack
 
+*Archived April 25. 2023. Outdated*
+
 A setup with Jekyll and Webpack
 
 ## Credit
